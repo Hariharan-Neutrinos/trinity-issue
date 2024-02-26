@@ -18,9 +18,11 @@ if (environment.properties['production']) {
 
 async function bootstrapNow() {
     if (environment.properties['console_runtime'] === 'true') {
-        const URL = `${window.location.origin}/${environment.properties['trinity_deployment_app_name']}/api/environments`;
+        const URL = `${window.location.origin}/${window['neutrinos']['environments'].properties['trinity_deployment_app_name']}/api/environments`;
         const data = await (await fetch(URL)).json();
-
+        if(data?.properties?.trinity_deployment_app_name){
+            data.properties.trinity_deployment_app_name = window['neutrinos']['environments'].properties['trinity_deployment_app_name'];
+        }
         Object.assign(environment.properties, data.properties);
         window['neutrinos'] = {
             environments: environment,

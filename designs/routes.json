@@ -1,9 +1,14 @@
 {
     "routes": [
         {
+            "path": "hi",
+            "component": "hiComponent"
+        },
+        {
             "path": "''",
-            "redirectTo": "",
-            "pathMatch": "full"
+            "redirectTo": "/hi",
+            "pathMatch": "full",
+            "default": true
         },
         {
             "path": "**",

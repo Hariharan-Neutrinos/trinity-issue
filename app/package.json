@@ -1,7 +1,7 @@
 {
-    "name": "test-issue",
+    "name": "trinity-issue",
     "version": "1.0.0",
-    "studioVersion": "9.2.1",
+    "studioVersion": "9.2.2",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",

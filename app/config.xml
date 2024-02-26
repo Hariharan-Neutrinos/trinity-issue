@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="co.neutrinos_training.test_issue" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>test-issue</name>
-    <description>issue</description>
+<widget id="co.neutrinos_training.trinity_issue" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>trinity-issue</name>
+    <description>trinity-issue</description>
     <author email="ideas@neutrinos.co" href="http://neutrinos.co">
         Neutrinos Team
     </author>
